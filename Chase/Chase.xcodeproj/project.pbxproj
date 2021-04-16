@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAF487CB2B8624B900220C02 /* ChaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF487CA2B8624B900220C02 /* ChaseApp.swift */; };
+		DAF487CD2B8624B900220C02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF487CC2B8624B900220C02 /* ContentView.swift */; };
+		DAF487CF2B8624BA00220C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF487CE2B8624BA00220C02 /* Assets.xcassets */; };
+		DAF487D22B8624BA00220C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF487D12B8624BA00220C02 /* Preview Assets.xcassets */; };
+		DAF487DC2B8624BA00220C02 /* ChaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF487DB2B8624BA00220C02 /* ChaseTests.swift */; };
+		DAF487E62B8624BA00220C02 /* ChaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF487E52B8624BA00220C02 /* ChaseUITests.swift */; };
+		DAF487E82B8624BA00220C02 /* ChaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF487E72B8624BA00220C02 /* ChaseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF487D82B8624BA00220C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF487BF2B8624B900220C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF487C62B8624B900220C02;
+			remoteInfo = Chase;
+		};
+		DAF487E22B8624BA00220C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF487BF2B8624B900220C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF487C62B8624B900220C02;
+			remoteInfo = Chase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAF487C72B8624B900220C02 /* Chase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF487CA2B8624B900220C02 /* ChaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseApp.swift; sourceTree = "<group>"; };
+		DAF487CC2B8624B900220C02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAF487CE2B8624BA00220C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF487D12B8624BA00220C02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAF487D72B8624BA00220C02 /* ChaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF487DB2B8624BA00220C02 /* ChaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseTests.swift; sourceTree = "<group>"; };
+		DAF487E12B8624BA00220C02 /* ChaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF487E52B8624BA00220C02 /* ChaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseUITests.swift; sourceTree = "<group>"; };
+		DAF487E72B8624BA00220C02 /* ChaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF487C42B8624B900220C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF487D42B8624BA00220C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF487DE2B8624BA00220C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF487BE2B8624B900220C02 = {
+			isa = PBXGroup;
+			children = (
+				DAF487C92B8624B900220C02 /* Chase */,
+				DAF487DA2B8624BA00220C02 /* ChaseTests */,
+				DAF487E42B8624BA00220C02 /* ChaseUITests */,
+				DAF487C82B8624B900220C02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF487C82B8624B900220C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF487C72B8624B900220C02 /* Chase.app */,
+				DAF487D72B8624BA00220C02 /* ChaseTests.xctest */,
+				DAF487E12B8624BA00220C02 /* ChaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF487C92B8624B900220C02 /* Chase */ = {
+			isa = PBXGroup;
+			children = (
+				DAF487CA2B8624B900220C02 /* ChaseApp.swift */,
+				DAF487CC2B8624B900220C02 /* ContentView.swift */,
+				DAF487CE2B8624BA00220C02 /* Assets.xcassets */,
+				DAF487D02B8624BA00220C02 /* Preview Content */,
+			);
+			path = Chase;
+			sourceTree = "<group>";
+		};
+		DAF487D02B8624BA00220C02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAF487D12B8624BA00220C02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAF487DA2B8624BA00220C02 /* ChaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF487DB2B8624BA00220C02 /* ChaseTests.swift */,
+			);
+			path = ChaseTests;
+			sourceTree = "<group>";
+		};
+		DAF487E42B8624BA00220C02 /* ChaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF487E52B8624BA00220C02 /* ChaseUITests.swift */,
+				DAF487E72B8624BA00220C02 /* ChaseUITestsLaunchTests.swift */,
+			);
+			path = ChaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF487C62B8624B900220C02 /* Chase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF487EB2B8624BA00220C02 /* Build configuration list for PBXNativeTarget "Chase" */;
+			buildPhases = (
+				DAF487C32B8624B900220C02 /* Sources */,
+				DAF487C42B8624B900220C02 /* Frameworks */,
+				DAF487C52B8624B900220C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chase;
+			productName = Chase;
+			productReference = DAF487C72B8624B900220C02 /* Chase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF487D62B8624BA00220C02 /* ChaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF487EE2B8624BA00220C02 /* Build configuration list for PBXNativeTarget "ChaseTests" */;
+			buildPhases = (
+				DAF487D32B8624BA00220C02 /* Sources */,
+				DAF487D42B8624BA00220C02 /* Frameworks */,
+				DAF487D52B8624BA00220C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF487D92B8624BA00220C02 /* PBXTargetDependency */,
+			);
+			name = ChaseTests;
+			productName = ChaseTests;
+			productReference = DAF487D72B8624BA00220C02 /* ChaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF487E02B8624BA00220C02 /* ChaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF487F12B8624BA00220C02 /* Build configuration list for PBXNativeTarget "ChaseUITests" */;
+			buildPhases = (
+				DAF487DD2B8624BA00220C02 /* Sources */,
+				DAF487DE2B8624BA00220C02 /* Frameworks */,
+				DAF487DF2B8624BA00220C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF487E32B8624BA00220C02 /* PBXTargetDependency */,
+			);
+			name = ChaseUITests;
+			productName = ChaseUITests;
+			productReference = DAF487E12B8624BA00220C02 /* ChaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF487BF2B8624B900220C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DAF487C62B8624B900220C02 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DAF487D62B8624BA00220C02 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DAF487C62B8624B900220C02;
+					};
+					DAF487E02B8624BA00220C02 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DAF487C62B8624B900220C02;
+					};
+				};
+			};
+			buildConfigurationList = DAF487C22B8624B900220C02 /* Build configuration list for PBXProject "Chase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF487BE2B8624B900220C02;
+			productRefGroup = DAF487C82B8624B900220C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF487C62B8624B900220C02 /* Chase */,
+				DAF487D62B8624BA00220C02 /* ChaseTests */,
+				DAF487E02B8624BA00220C02 /* ChaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF487C52B8624B900220C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF487D22B8624BA00220C02 /* Preview Assets.xcassets in Resources */,
+				DAF487CF2B8624BA00220C02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF487D52B8624BA00220C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF487DF2B8624BA00220C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF487C32B8624B900220C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF487CD2B8624B900220C02 /* ContentView.swift in Sources */,
+				DAF487CB2B8624B900220C02 /* ChaseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF487D32B8624BA00220C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF487DC2B8624BA00220C02 /* ChaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF487DD2B8624BA00220C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF487E62B8624BA00220C02 /* ChaseUITests.swift in Sources */,
+				DAF487E82B8624BA00220C02 /* ChaseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF487D92B8624BA00220C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF487C62B8624B900220C02 /* Chase */;
+			targetProxy = DAF487D82B8624BA00220C02 /* PBXContainerItemProxy */;
+		};
+		DAF487E32B8624BA00220C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF487C62B8624B900220C02 /* Chase */;
+			targetProxy = DAF487E22B8624BA00220C02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAF487E92B8624BA00220C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAF487EA2B8624BA00220C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF487EC2B8624BA00220C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chase/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NA3L97ZUD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levicious.Chase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF487ED2B8624BA00220C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chase/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NA3L97ZUD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levicious.Chase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAF487EF2B8624BA00220C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NA3L97ZUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levicious.ChaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chase";
+			};
+			name = Debug;
+		};
+		DAF487F02B8624BA00220C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NA3L97ZUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levicious.ChaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chase";
+			};
+			name = Release;
+		};
+		DAF487F22B8624BA00220C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NA3L97ZUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levicious.ChaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chase;
+			};
+			name = Debug;
+		};
+		DAF487F32B8624BA00220C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NA3L97ZUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = levicious.ChaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF487C22B8624B900220C02 /* Build configuration list for PBXProject "Chase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF487E92B8624BA00220C02 /* Debug */,
+				DAF487EA2B8624BA00220C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF487EB2B8624BA00220C02 /* Build configuration list for PBXNativeTarget "Chase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF487EC2B8624BA00220C02 /* Debug */,
+				DAF487ED2B8624BA00220C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF487EE2B8624BA00220C02 /* Build configuration list for PBXNativeTarget "ChaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF487EF2B8624BA00220C02 /* Debug */,
+				DAF487F02B8624BA00220C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF487F12B8624BA00220C02 /* Build configuration list for PBXNativeTarget "ChaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF487F22B8624BA00220C02 /* Debug */,
+				DAF487F32B8624BA00220C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAF487BF2B8624B900220C02 /* Project object */;
+}
